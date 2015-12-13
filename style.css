@@ -1,0 +1,82 @@
+* {
+	padding:0;
+	margin:0;
+	box-sizing: 0;
+}
+
+html {
+	font-size: 16px;
+}
+
+.header-bg {
+	height: 100vh;
+	width: 100%;
+	background: url("images/pics1/Darken.jpg");
+	background-size: cover;
+
+}
+
+header {
+	margin: 0 10vw;
+	padding-top: 10vh;
+
+}
+
+header a {
+	float: left;
+	margin-bottom: 11px;
+}
+
+header nav {
+	float: right;
+    font-family: Helvetica;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+
+
+header:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+
+header nav ul
+{
+	float: left;
+	line-height: 50px;
+}
+
+header nav ul li:hover, .tranparent-button:hover  {
+	border: 1px solid white;
+	border-radius: 10px;
+	border-color: gray;
+	cursor: pointer;
+}
+
+header nav ul li, .tranparent-button {
+	color: white;
+	padding: 14px 27px 14px 27px;
+	border: 0;
+	text-decoration: none;
+	vertical-align: middle;list-style: none;
+    display: inline; }
+
+.tranparent-button {
+	line-height: 25px;
+}
+
+.logo, .logo:active, .logo:hover, .logo:visited {
+	color: white;
+	text-decoration: none;
+	font-family: Helvetica;
+	font-size: 24px;
+	line-height: 50px;
+}
+
+.logo img {
+	float: left;
+}
