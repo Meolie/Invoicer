@@ -47,26 +47,30 @@ header:after {
 header nav ul
 {
 	float: left;
-	line-height: 50px;
 }
 
 header nav ul li:hover, .tranparent-button:hover  {
 	border: 1px solid white;
+    box-shadow: -1px -1px 2px #000; /* Параметры тени */
 	border-radius: 10px;
 	border-color: gray;
 	cursor: pointer;
 }
 
-header nav ul li, .tranparent-button {
+header nav ul li {
 	color: white;
 	padding: 14px 27px 14px 27px;
-	border: 0;
-	text-decoration: none;
-	vertical-align: middle;list-style: none;
+	border: 1px solid transparent;
+	list-style: none;
     display: inline; }
 
 .tranparent-button {
-	line-height: 25px;
+	line-height: 12px;
+	color: white;
+	border: 1px solid transparent;
+	text-decoration: none;
+	padding: 14px 27px 14px 27px;
+	margin-top: -14px;
 }
 
 .logo, .logo:active, .logo:hover, .logo:visited {
@@ -80,3 +84,5 @@ header nav ul li, .tranparent-button {
 .logo img {
 	float: left;
 }
+
+
