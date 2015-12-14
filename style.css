@@ -7,7 +7,15 @@
 html {
 	font-size: 16px;
 }
+ 
+/* fonts */
 
+@font-face {
+	font-family: Helvetica_Neue_Roman; /* Имя шрифта */
+    src: url(fonts/Helvetica_Neue_Roman.otf); /* Путь к файлу со шрифтом */
+}
+
+/* page1 */
 .header-bg {
 	height: 100vh;
 	width: 100%;
@@ -28,7 +36,7 @@ header a {
 
 header nav {
 	float: right;
-    font-family: Helvetica;
+    font-family: Helvetica_Neue_Roman;
     text-transform: uppercase;
     font-size: 12px;
     margin-top: 30px;
@@ -92,7 +100,7 @@ header nav ul li:active {
 .logo:visited {
 	color: white;
 	text-decoration: none;
-	font-family: Helvetica;
+	font-family: Helvetica_Neue_Roman;
 	font-size: 24px;
 	line-height: 50px;
 }
@@ -104,7 +112,7 @@ header nav ul li:active {
 
 .header-controls {
 	text-align: center;
-	font-family: Helvetica;
+	font-family: Helvetica_Neue_Roman;
 	color: white;
 	padding-top: 10%;
 }
@@ -155,9 +163,20 @@ header nav ul li:active {
 	color: white;
 	text-decoration: none;
     text-transform: uppercase;
-	font-family: Helvetica;
+	font-family: Helvetica_Neue_Roman;
 	font-size: 12px;
     border-radius: 0px 5px 5px 0px;
     background-color: #6782c2;
     padding: 22px;
 }
+
+
+/* page2 */
+
+
+
+.our_features h2 {
+	font-size:25px;
+	font-family: Helvetica_Neue_Roman;
+}
+
