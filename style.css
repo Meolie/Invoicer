@@ -294,3 +294,64 @@ header nav ul li:active {
 	left: 60%;
 	right: 100px;
 }
+
+/* page 4 */
+
+.ios .img2 {
+	float: right;
+	margin: 60px 0px 100px 60px;
+}
+
+.ios .img1 {
+	padding: 20px 20px 20px 0px;
+	display: table-cell;
+}
+
+.ios h2 {
+	font-size: 25px;
+	font-family: Helvetica_Neue_Roman;
+	letter-spacing: 0.5px;
+	margin-top: 60px;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+
+.ios {
+	padding: 100px 100px 0px 100px;
+}
+
+.title {
+	display: table;
+	margin-top: 25vh;
+}
+
+.ios p {
+	font-family: Myriad_Pro_Regular;
+	font-size: 15px;
+	letter-spacing: 0.7px;
+	color: #827e86;
+}
+
+.ios:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+
+/* footer + reviews */
+.reviews {
+	text-align: center;
+	font-size: 25px;
+	font-family: Myriad_Pro_Regular;
+	letter-spacing: 0.5px;
+	padding: 100px;
+}
+
+.reviews h1 {
+	font-family: Myriad_Pro_Regular;
+	letter-spacing: 1px;
+	font-size: 32px;
+	margin: -15px auto;
+}
