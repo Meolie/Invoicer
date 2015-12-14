@@ -34,19 +34,41 @@ header nav {
     margin-top: 30px;
 }
 
-
-
 header:after {
 	content: "";
 	display: block;
 	clear: both;
 }
 
-
 header nav ul
 {
 	float: left;
 }
+
+header nav ul li {
+	color: white;
+	padding: 14px 27px 14px 27px;
+	border: 1px solid transparent;
+	list-style: none;
+    display: inline; 
+}
+
+nav a:active, 
+nav a,
+nav a:visited,
+nav a:hover {
+	text-decoration: none;
+}
+
+.tranparent-button {
+	line-height: 12px;
+	color: white;
+	border: 1px solid transparent;
+	padding: 14px 27px 14px 27px;
+	margin-top: -14px;
+}
+
+
 
 header nav ul li:hover, 
 .tranparent-button:hover  {
@@ -57,22 +79,13 @@ header nav ul li:hover,
 	cursor: pointer;
 }
 
-header nav ul li {
-	color: white;
-	padding: 14px 27px 14px 27px;
-	border: 1px solid transparent;
-	list-style: none;
-    display: inline; }
-
-.tranparent-button {
-	line-height: 12px;
-	color: white;
-	border: 1px solid transparent;
-	text-decoration: none;
-	padding: 14px 27px 14px 27px;
-	margin-top: -14px;
+header nav ul li:active {
+	box-shadow: inset 0 0 1em gray;
 }
 
+.tranparent-button:active {
+	box-shadow: inset 0 0 1em gray;
+}
 .logo,
 .logo:active, 
 .logo:hover, 
@@ -118,7 +131,21 @@ header nav ul li {
     bottom: 0;
     left: 50%;
     right: 0;
-    top: 85%;
+    top: 85%; 
+    transition: 0.15s linear;
+}
+.down:active {
+	transform: rotate(-180deg);
+    -webkit-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+}
+
+.down:visited{
+	transform: rotate(-180deg);
+    -webkit-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
 }
 
 .sign-up,
