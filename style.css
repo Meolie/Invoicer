@@ -13,13 +13,12 @@ html {
 	width: 100%;
 	background: url("images/pics1/Darken.jpg");
 	background-size: cover;
-
+	position: relative;
 }
 
 header {
 	margin: 0 10vw;
 	padding-top: 10vh;
-
 }
 
 header a {
@@ -49,7 +48,8 @@ header nav ul
 	float: left;
 }
 
-header nav ul li:hover, .tranparent-button:hover  {
+header nav ul li:hover, 
+.tranparent-button:hover  {
 	border: 1px solid white;
     box-shadow: -1px -1px 2px #000; /* Параметры тени */
 	border-radius: 10px;
@@ -73,7 +73,10 @@ header nav ul li {
 	margin-top: -14px;
 }
 
-.logo, .logo:active, .logo:hover, .logo:visited {
+.logo,
+.logo:active, 
+.logo:hover, 
+.logo:visited {
 	color: white;
 	text-decoration: none;
 	font-family: Helvetica;
@@ -88,19 +91,46 @@ header nav ul li {
 
 .header-controls {
 	text-align: center;
-}
-
-.header-controls h1 {
-	color: white;
-	text-align: center;
 	font-family: Helvetica;
-	font-size: 50px;
+	color: white;
 	padding-top: 10%;
 }
 
+.header-controls h1 {
+	font-size: 50px;
+}
+
 .header-controls p {
-	color: white;
-	text-align: center;
-	font-family: Helvetica;
 	font-size: 25px;
+	margin-bottom: 1em;
+}
+
+.header-controls input {
+	box-sizing: border-box;
+	width: 314px;
+	height: 57px;
+    border-radius: 5px 0px 0px 5px;
+    padding: 2em;
+}
+
+.down {
+	position: absolute;
+    bottom: 0;
+    left: 50%;
+    right: 0;
+    top: 85%;
+}
+
+.sign-up,
+.sign-up:hover,
+.sign-up:active,
+.sign-up:visited  {
+	color: white;
+	text-decoration: none;
+    text-transform: uppercase;
+	font-family: Helvetica;
+	font-size: 12px;
+    border-radius: 0px 5px 5px 0px;
+    background-color: #6782c2;
+    padding: 22px;
 }
