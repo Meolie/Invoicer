@@ -240,16 +240,14 @@ header nav ul li:active {
 /* page 3 */
 
 .integrated_time_tracking {
-	position: relative; 
 	background: url("images/pics3/Layer.jpg");
 	-moz-background-size: cover; /* Firefox 3.6+ */
     -webkit-background-size: cover; /* Safari 3.1+ и Chrome 4.0+ */
     -o-background-size: cover; /* Opera 9.6+ */
     background-size: cover; /* Современные браузеры */
-    height:600px;
 	color: white;
 	font-family: Myriad_Pro_Regular;
-	padding-top: 100px;
+	padding: 100px 100px 0px 100px;
 }
 
 .integrated_time_tracking h2 {
@@ -270,9 +268,8 @@ header nav ul li:active {
 }
 
 .integrated_time_tracking .img2 {
-	position: absolute;
-	bottom: 0;
-	left: 100px;
+	float: left;
+	margin: 0px 60px 0px 0px;
 }
 
 .integrated_time_tracking .img2:after {
@@ -292,7 +289,6 @@ header nav ul li:active {
 }
 
 .integrated_time_tracking .left {
-	position: absolute;
 	left: 60%;
 	right: 100px;
 }
