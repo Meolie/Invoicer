@@ -212,6 +212,7 @@ header nav ul li:active {
 
 .title {
 	display: table;
+	margin-top: 25vh;
 }
 
 .our_features p {
