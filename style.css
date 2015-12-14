@@ -137,7 +137,7 @@ header nav ul li:active {
 	margin-bottom: 1em;
 }
 
-.header-controls input {
+ input {
 	box-sizing: border-box;
 	width: 314px;
 	height: 57px;
@@ -340,7 +340,7 @@ header nav ul li:active {
 }
 
 
-/* footer + reviews */
+/*  reviews */
 .reviews {
 	text-align: center;
 	font-size: 25px;
@@ -353,5 +353,52 @@ header nav ul li:active {
 	font-family: Myriad_Pro_Regular;
 	letter-spacing: 1px;
 	font-size: 32px;
-	margin: -15px auto;
+	margin: 30px auto;
+	margin-top: -15px;
 }
+
+.reviews img {
+	margin: 30px auto;
+}
+
+.reviews p{
+	color: gray;
+	font-size: 25px;
+}
+
+.reviews .man {
+	color: #000;
+	font-size: 12px;
+    text-transform: uppercase;
+    margin: 25px;
+}
+
+
+/* footer */
+
+
+.footer_sign_up {
+	background-image: url("images/footer/layer.jpg");
+	height: 260px;	
+	position: relative;
+	text-align: center;
+	font-family: Myriad_Pro_Regular;
+	color: white;
+}
+
+.footer_sign_up .sign {
+	position: absolute;
+	top: 80px;
+	bottom: 80px;
+	left: 0;
+	right: 0;
+}
+
+.footer_sign_up h1 {
+	font-size: 32px;
+	margin-bottom: 30px;
+}
+
+
+
+
