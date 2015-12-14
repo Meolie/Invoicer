@@ -86,3 +86,21 @@ header nav ul li {
 }
 
 
+.header-controls {
+	text-align: center;
+}
+
+.header-controls h1 {
+	color: white;
+	text-align: center;
+	font-family: Helvetica;
+	font-size: 50px;
+	padding-top: 10%;
+}
+
+.header-controls p {
+	color: white;
+	text-align: center;
+	font-family: Helvetica;
+	font-size: 25px;
+}
