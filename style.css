@@ -118,6 +118,7 @@ header nav ul li:active {
 
 .logo img {
 	float: left;
+	margin-right: 10px;
 }
 
 
@@ -153,6 +154,7 @@ header nav ul li:active {
     top: 85%; 
     transition: 0.15s linear;
 }
+
 .down:active {
 	transform: rotate(-180deg);
     -webkit-transform: rotate(-180deg);
@@ -402,3 +404,34 @@ header nav ul li:active {
 
 
 
+
+.footer {
+	padding: 40px 100px;
+	text-align: center;
+	}
+
+.footer .logo,
+.footer .logo:active, 
+.footer .logo:hover, 
+.footer .logo:visited {
+	color: #494949;
+	float: left;
+}
+
+.footer_sign_up .sign-up,
+.footer_sign_up .sign-up:hover,
+.footer_sign_up .sign-up:active,
+.footer_sign_up .sign-up:visited  {
+	background-color: #3ecacb;
+}
+
+.aery {
+	float: right;
+}
+
+.footer p {
+	line-height: 50px;
+	padding-right: 35px;
+	display: inline;
+	vertical-align:middle;
+}
