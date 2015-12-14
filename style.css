@@ -15,6 +15,11 @@ html {
     src: url(fonts/Helvetica_Neue_Roman.otf); /* Путь к файлу со шрифтом */
 }
 
+@font-face {
+	font-family: Myriad_Pro_Regular; /* Имя шрифта */
+    src: url(fonts/MyriadPro-Regular.otf); /* Путь к файлу со шрифтом */
+}
+
 /* page1 */
 .header-bg {
 	height: 100vh;
@@ -173,10 +178,45 @@ header nav ul li:active {
 
 /* page2 */
 
-
-
-.our_features h2 {
-	font-size:25px;
-	font-family: Helvetica_Neue_Roman;
+#our_features {
+	text-align: center;
+	font-family: Myriad_Pro_Regular;
+	letter-spacing: 1px;
+	font-size: 32px;
 }
 
+
+.img2 {
+	float: right;
+	margin: 60px 0px 100px 60px;
+}
+
+.img1 {
+	padding: 20px 20px 20px 0px;
+	display: table-cell;
+}
+
+.our_features h2 {
+	font-size: 25px;
+	font-family: Helvetica_Neue_Roman;
+	letter-spacing: 0.5px;
+	margin-top: 60px;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+
+.our_features {
+	padding: 100px;
+}
+
+.title {
+	display: table;
+}
+
+.our_features p {
+	font-family: Myriad_Pro_Regular;
+	font-size: 15px;
+	letter-spacing: 0.5px;
+	color: #827e86;
+}
