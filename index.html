@@ -3,15 +3,36 @@
 <head>
 	<title>Invoices</title>
 	<link rel="stylesheet" type="text/css" href="style.css" />
-</head>
-<body>
-<div class="header-bg">
-<form action="action_page.php" method="post" name="registration">
-	<div id="registration-modal">
+		<script type="text/javascript">
+			function showPopup(){
+				$("#popup1").show();
+				return false;
+			}
+			function hidePopup(){
+		  		$("#popup1").hide();
+		  		return false;
+			}
+			function showPopup(){
+				document.getElementById("popup1").style.display = "block";
+				return false;
+			}
+			function hidePopup(){
+				document.getElementById("popup1").style.display = "none";
+				return false;
+			}
+		</script>
 
+</head>
+<body class="container">
+
+<div class="header-bg">
+<div class="popup" id="popup1">
+	<form action="action_page.php" method="post" name="registration">
+	<div id="registration-modal">
+	<a style="float:right; font-size:20px; text-decoration:none;" onclick="hidePopup()" href="#">x</a>
         		
         		<h1>Sign up</h1>
-
+        		
         		<hr />
 
         		<div class="full-size">
@@ -91,6 +112,7 @@
 			
 			</div>
 		</form>
+		</div>
 	<header>
 		<div class="div_logo">
 		<a class="logo" href="/">
@@ -104,7 +126,7 @@
 				<a href="#"><li>Faq</li></a>
 				<a href="#"><li>Tutorials</li></a>
 			</ul>
-			<a onclick="document.getElementById('registration-modal').style.display = 'block';" class="tranparent-button" href="#">Sign up</a>
+			<a  class="tranparent-button" href="#" onclick="showPopup()">Sign up</a>
 		</nav>
 	</header>
 	<div class="header-controls">
