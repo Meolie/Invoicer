@@ -397,7 +397,10 @@ header nav ul li:active {
 	margin-bottom: 30px;
 }
 
-
+.footer_sign_up input {
+	height:57px;
+	padding: 0 2em;
+}
 
 
 
